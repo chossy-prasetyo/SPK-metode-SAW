@@ -36,16 +36,7 @@ foreach($nilai as $n){
       <div class="row">
         <div class="col-5">
           <div class="row">
-            <!-- Input Cari Karyawan -->
-            <!-- 
-            <div class="col-7">
-              <form action="" method="post">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Cari karyawan" name="keyword" autocomplete="off" id="keyword">
-                </div>            
-              </form>
-            </div>
-             -->
+                      
             <!-- Tombol Tambah Karyawan -->
             <div class="col-5 mb-3">
               <a class="btn btn-success" href="karyawan_tambah.php">
@@ -53,12 +44,13 @@ foreach($nilai as $n){
                 Tambah Karyawan
               </a>
             </div>
+
           </div>
         </div>
       </div>
 
       <!-- Tabel Karyawan -->
-      <div id="live">
+      <div>
         <table class ="table table-bordered table-striped">
           <thead align="center">
             <th>No</th>
@@ -115,8 +107,5 @@ foreach($nilai as $n){
     <div class="card-footer bg-dark text-light">Programmed By : Risa Laida</div>
   </div>
 </div>
-
-<!-- My Javascript -->
-<!-- <script src="script.js"></script> -->
 
 <?php include 'footer.php'; ?>
